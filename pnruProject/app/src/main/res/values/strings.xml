@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PNRU</string>
+    <string name="txt_name1">(New) เพิ่มข้อมูลใหม่</string>
+    <string name="txt_name2">(Show) แสดงข้อมูล</string>
+    <string name="txt_name3">(GPS ) แสดงข้อมูล GPS</string>
+    <string name="txt_profile1">นายสุชาติ สุทธาสิโนบล</string>
+    <string name="txt_profile2">รหัสนักศึกษา 5930122115206</string>
+    <string name="txt_profile3">สาขาวิทยาการคอมพิวเตอร์</string>
+    <string name="txt_profile4">กศ.พบ. รุ่นที่ 42</string>
+    <string name="txt_profile5">คณะวิทยาศาสตร์และเทคโนโลยี</string>
+    <string name="txt_profile6">มหาวิทยาลัยราชภัฏพระนคร</string>
+
+</resources>

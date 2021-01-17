@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        app:srcCompat="@drawable/my_img"
+        tools:ignore="ContentDescription"
+        />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgProfile"
+        android:layout_alignStart="@+id/imgProfile"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/txt_name1" />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnInsert"
+        android:layout_below="@+id/btnInsert"
+        android:layout_marginTop="40dp"
+        android:text="@string/txt_name2" />
+
+    <Button
+        android:id="@+id/btnGps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnShow"
+        android:layout_alignStart="@+id/btnShow"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/txt_name3" />
+
+    <TextView
+            android:id="@+id/textName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txt_profile1"
+            android:layout_alignStart="@+id/btnGps"
+            android:layout_below="@+id/btnGps"
+            android:layout_marginTop="40dp" />
+    <TextView
+        android:id="@+id/textName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:text="@string/txt_profile2"
+        android:layout_alignStart="@+id/textName1"
+        android:layout_below="@+id/textName1"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/textName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txt_profile3"
+        android:layout_alignStart="@+id/textName2"
+        android:layout_below="@+id/textName2"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/textName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txt_profile4"
+        android:layout_alignStart="@+id/textName3"
+        android:layout_below="@+id/textName3"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:id="@+id/textName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txt_profile5"
+        android:layout_alignStart="@+id/textName4"
+        android:layout_below="@+id/textName4"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/textName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txt_profile6"
+        android:layout_alignStart="@+id/textName5"
+        android:layout_below="@+id/textName5"
+        android:layout_marginTop="5dp" />
+</RelativeLayout>
