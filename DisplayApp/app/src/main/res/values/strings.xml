@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DisplayApp</string>
+    <string name="menu_select">Select Page</string>
+    <string name="menu_insert">Insert Page</string>
+
+</resources>
