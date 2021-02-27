@@ -9,6 +9,8 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     public Button btnAddData;
     public Button btnShowGps;
+    public Button btnLinkShow;
+
     public Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btnAddData = (Button)findViewById(R.id.btnInsert);
         btnShowGps = (Button)findViewById(R.id.btnGps);
+        btnLinkShow = (Button)findViewById(R.id.btnOnlyShow);
 
         btnAddData.setOnClickListener(new View.OnClickListener() {
 
@@ -35,7 +38,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnLinkShow.setOnClickListener(new View.OnClickListener() {
 
+            @Override
+            public void onClick(View view) {
+                intent = new Intent(view.getContext(), MenuSelectActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

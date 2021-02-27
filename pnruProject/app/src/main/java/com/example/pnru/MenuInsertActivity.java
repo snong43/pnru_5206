@@ -27,6 +27,7 @@ import java.util.ArrayList;
 
 public class MenuInsertActivity extends AppCompatActivity {
     public Button btnInsert;
+
     public EditText edt_id;
     public EditText edt_name;
     public EditText edt_q;
@@ -36,7 +37,6 @@ public class MenuInsertActivity extends AppCompatActivity {
     private static final String USER_INSERT_PHP = "http://" + UrlConstantPHP.MY_LOCAL  + "/testmysql/insertInvData.php";
     private static final String USER_QUERY_PHP = "http://" + UrlConstantPHP.MY_LOCAL  + "/testmysql/queryInvData.php";
     private static final String USER_DELETE_PHP = "http://" + UrlConstantPHP.MY_LOCAL  + "/testmysql/delInvData.php";
-
     private ArrayAdapter<String> adapter;
     public ListView listView;
 

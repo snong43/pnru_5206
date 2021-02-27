@@ -35,14 +35,24 @@ android:layout_height="match_parent" >
         android:layout_marginTop="40dp"
         android:text="@string/txt_name3" />
 
+    <Button
+        android:id="@+id/btnOnlyShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGps"
+        android:layout_alignStart="@+id/btnGps"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="40dp"
+        android:text="Show List Data" />
+
     <TextView
             android:id="@+id/textName1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="@string/txt_profile1"
-            android:layout_alignStart="@+id/btnGps"
-            android:layout_below="@+id/btnGps"
+            android:layout_alignStart="@+id/btnOnlyShow"
+            android:layout_below="@+id/btnOnlyShow"
             android:layout_marginTop="40dp" />
     <TextView
         android:id="@+id/textName2"
